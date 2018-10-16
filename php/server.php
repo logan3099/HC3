@@ -31,7 +31,7 @@
 	}
         
         function prueba(){
-            //dfdfdfd
+            //es una prueba
         }
 
 	// when a client connects
