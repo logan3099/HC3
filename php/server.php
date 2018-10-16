@@ -7,7 +7,7 @@
 	require 'class.PHPWebSocket.php';
 
 	// when a client sends data to the server
-	function wsOnMessage($clientID, $message, $messageLength, $binary) 
+	function wsOnMessage($clientID, $message, $messageLength, $binary)  
 	{
 		global $Server;
 		$ip = long2ip( $Server->wsClients[$clientID][6] );
@@ -29,6 +29,10 @@
 					//aqui recibimos la accion con los demas parametros e identificadores
 					$Server->wsSend($id,$message);
 	}
+        
+        function prueba(){
+            
+        }
 
 	// when a client connects
 	function wsOnOpen($clientID)
