@@ -14,7 +14,7 @@
 */
 
 
-class PHPWebSocket
+class PHPWebSocket 
 {
 	// máximo de clientes que pueden conectarse a la vez
 	const WS_MAX_CLIENTS = 100;
